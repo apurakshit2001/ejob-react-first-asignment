@@ -1,0 +1,58 @@
+/* mobile.css */
+
+/* Apply these styles for screens less than or equal to 768px */
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background-color: #ffffff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    nav button {
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #f8f8f8;
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 14px;
+        color: #333;
+    }
+}
