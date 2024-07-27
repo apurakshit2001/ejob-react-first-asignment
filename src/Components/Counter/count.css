@@ -12,6 +12,8 @@ button[type='button']:active{
     background-color: rgb(201, 201, 201);
 }
 font {
+    height: 100px;
+    width: 100px;
     font-size: 250px;
     text-align: center;
 }

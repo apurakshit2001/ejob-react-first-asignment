@@ -12,10 +12,21 @@ const Counter = () => {
         setCount(count - 1);
     }
     return (
-        <div>
-            <button type="button" onClick={increment}>+</button>
-            <font>{count}</font>
-            <button type="button" onClick={decrement} >-</button>
+        <div className='counterContainer'>
+            <style>
+                {`
+          .Button {
+            color: black;
+          }
+          .Button:active {
+            color: red;
+          }
+        `}
+            </style>
+
+            <button type="button" onClick={increment} className='Button'>+</button><font>
+                {count}
+            </font><button type="button" onClick={decrement} className='Button'>-</button>
         </div>
     );
 };
